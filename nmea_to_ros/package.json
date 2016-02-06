@@ -1,0 +1,16 @@
+{
+  "name": "location-nmea",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nmea": "0.0.9",
+    "nmea-0183": "0.0.7",
+    "roslib": "^0.17.0"
+  }
+}

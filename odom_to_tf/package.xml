@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <name>odom_to_tf</name>
+  <version>0.1.7</version>
+  <description>GPS messages and common routines for use in GPS drivers</description>
+
+  <maintainer email="alan.meekins@gmail.com">Alan Meekins</maintainer>
+  <license>BSD</license>
+  <url type="website">http://ros.org/wiki/odom_to_tf_node</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+  <build_depend>message_filters</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>tf</build_depend>
+
+  <run_depend>message_runtime</run_depend>
+
+</package>
